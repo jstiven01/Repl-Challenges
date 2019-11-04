@@ -10,7 +10,7 @@ def bfs(graph, queue = [], array = [], next_node = 0)
     
     bfs(graph, queue, array, queue.shift)
     array
-  end
+end
 
   p bfs({
     0 => [2], 
